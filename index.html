@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAILS NASS</title>
+   
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+     <style> 
+        html{
+            scroll-behavior: auto;
+        }
+        *{
+            align-items: center;
+        
+        }
+    
+        header{
+            text-align: center;
+            position: sticky;
+            margin-bottom: 20px;
+            }
+
+        body{
+            background-color: bisque;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 14px;
+            text-align: center;
+            padding: 0%;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+       
+        .logo{
+            margin-bottom: 20px;
+            text-align: center;
+            color: rgb(136, 134, 134);
+        }
+        .list-navbar{
+            text-align: center;
+            list-style-type: none;
+            margin-left: 7%;
+        }
+        .list-navbar>li{
+            display: inline;
+            margin-right: 7%;
+        }
+        .list-navbar>li>a{
+            text-decoration: double;
+            color: rebeccapurple;
+            padding: 10px;
+            transition: 1s;
+        }
+        .list-navbar>li>a:hover{
+            color: rgb(192, 14, 177);
+            background-color: white;
+        }
+
+        .contenido{
+            text-align: center;
+            background-color: cornsilk;
+            color: rgb(117, 114, 114);
+            width: 90%;
+            padding: 1%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hipervinculos{
+            list-style-type: none;
+            text-align: center;
+        }
+    /*animaciones del contenido en el body*/
+    /*primer bloque*/
+        .cuerpo #home{
+            margin-top: 0%;
+        background-color: bisque;
+        padding: 1%;
+        }
+        .bienvenidas{
+            padding: 3%;
+            background-color: rgba(255, 255, 255, 0.566);
+            color: rgb(87, 84, 84);
+            margin-bottom: 10px;
+            transition: 1s;
+        }
+        .bienvenidas:hover{
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+        }
+        .bienvenidas:active{
+            transform: scale(1.1,1.1);
+        }
+    
+        /*segundo bloque*/
+            .servicios #navegable{
+            margin-top: 1%;
+        background-color: bisque;
+        padding: 1%;
+        }
+        .hipervinculos{
+            padding: 3%;
+            background-color: rgba(255, 255, 255, 0.566);
+            color: rgb(87, 84, 84);
+            margin-bottom: 10px;
+            transition: 1s;
+        }
+        .hipervinculos:hover{
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+        }
+        .hipervinculos:active{
+            transform: scale(1.1,1.1);
+        }
+
+        .list-navbar2{
+            list-style-type: none;
+            display: inline-table;
+            justify-content: space-between;
+
+        }
+     </style>
+</head>
+
+<body>
+    <main id="main-content">
+        <header>
+           <div class="logo">
+            <h1>NAILS NASS</h1>
+            </div>
+                
+        
+    
+        <div><nav class="navbar">
+            <ul class="list-navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contactame!</a></li>
+            </ul>
+            
+        
+        </nav></div>
+    
+    </header>
+    </main>
+   <hr>
+    
+   <main class="contenido">
+        <div class="cuerpo">
+            <section id="home">
+             <article class="bienvenidas"><h2><b>BIENVENIDAS AL MUNDO DEL NAIL ART!</b></h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia hic quam ad nulla, a, beatae tenetur debitis adipisci, consectetur ab eum aliquam odio illum maiores culpa cum autem tempore quidem.</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptatum quo animi non maiores harum delectus atque, qui et placeat. Atque ut veritatis culpa magnam impedit minus deserunt repellat cum!</p>
+             </article></section>
+        </div>
+
+        <div class="servicios">
+            <section id="navegable"> 
+                <article class="hipervinculos">
+                 <h3>HABLEMOS DEL MARKETING DIGITAL</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam distinctio blanditiis eos sequi, maxime commodi reprehenderit qui quaerat quia unde eveniet numquam, incidunt sapiente quae molestias esse, error delectus a.</p>
+           
+                    <h3>COMO PUEDO AYUDARTE?</h3>
+                    <nav>
+                        <ul class="hipervinculos">
+                            <li><a href="https://wa.me/2915759959?text=Hola, quiero un turno de manicuría!">Turnos en nuestro salón</a></li>
+                            <li><a href="https://wa.me/2915759959?text=Hola, quiero información!">Asesoria personalizada</a></li>
+                            <li><a href="plan de contenido.pdf">Plan de contenido</a></li>
+                            <li><a href="formulario.html">Comunidad Manicurista</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </section>
+        </div>
+
+    <section id="contacto">
+        <h3>NUESTRO SALON!</h3>
+        <a href="https://wa.me/2915759959?text=Hola, quiero un turno!">Quiero un turno!</a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.4183202384597!2d-62.26381392433502!3d-38.75410838836342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eda32ead442035%3A0xaf389be77ef0a75f!2sNass%20Nails%20Manicur%C3%ADa%20Profesional!5e0!3m2!1ses-419!2sar!4v1693416360862!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+ 
+</main>
+   
+   <footer>
+    <hr>
+ Derechos Reservados 2023 - Acá van los iconos links de redes sociales
+    <hr>
+</footer>
+</body>
+</html>
